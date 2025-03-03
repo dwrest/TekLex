@@ -29,6 +29,12 @@ section {
             font-size: 20px;
 }
 
+#service{
+  padding: 0px;
+  font-size: 20px;
+}
+
+
 table {
     border-collapse: collapse;
     width:100%
@@ -39,11 +45,11 @@ th, td {
 }
 
 /* Style the top navigation bar */
-.navbar { 
+.navbar {
+  
   background-color: #00c62e;
   display:flex;
-
-  justify-content: center;
+  justify-content: space-around; 
 }
 
 /* Style the navigation bar links */
