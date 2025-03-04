@@ -141,7 +141,18 @@ img {
 }
 
 @media screen and (max-width: 700px) {
-    .row, .navbar {
+    .row, .navbar,.service, .side, .main, .main-content{
         flex-direction:column;
+    }
+    .side, .main {
+        padding: 10px;
+    }
+
+    table{
+      width: 100%
+    }
+
+    th, td{
+      font-size: 16px;
     }
 }
